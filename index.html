@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia Bancaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #333;
+            color: white;
+            width: 320px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #5ba85a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 16px;
+        }
+
+        .header .signal {
+            color: white;
+            font-weight: bold;
+        }
+
+        .header .time {
+            font-size: 14px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content .amount {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .content .details {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .divider {
+            border-top: 1px dashed #444;
+            margin: 20px 0;
+        }
+
+        .details-section {
+            text-align: left;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .details-section .label {
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="signal">INTERBANK</div>
+            <div class="time">8:15 a.m.</div>
+        </div>
+        <div class="content">
+            <div class="success-icon">✅</div>
+            <div>Enviaste a una cuenta</div>
+            <div class="amount">$3000.00</div>
+            <br>
+            <div class="details">21/Ene/2025 08:15:48<br>Esta operación es gratis</div>
+            <br>
+            <div class="divider"></div>
+            <br>
+            <div class="details-section">
+                <div><span class="label">Cuenta origen:</span> Guardadito Digital ***6969</div>
+                <br>
+                <div><span class="label">Operación:</span> 0000040</div>
+                <br>
+                <div><span class="label">Cuenta destino:</span> Jesús Gomez BBVA Banco ***7001</div>
+                <br>
+                <div><span class="label">Concepto:</span> saludos</div>
+                <br>
+                <div><span class="label">Referencia:</span> 7115901</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
